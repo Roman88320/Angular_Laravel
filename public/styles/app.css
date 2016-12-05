@@ -1,0 +1,62 @@
+.font16 {
+  font-size: 16px;
+}
+.font36 {
+  font-size: 36px;
+}
+body.main .header {
+  padding-top: 30px;
+}
+body.main .header a {
+  text-decoration: underline;
+  font-size: 20px;
+}
+body.main .header .second-column {
+  margin-top: 30px;
+}
+body.main .header .second-column a.instructor {
+  padding-right: 10px;
+  border-right: 2px solid black;
+}
+body.main .header .second-column a.student {
+  padding-left: 10px;
+}
+body.main .middle-con {
+  text-align: center;
+  margin-top: 20%;
+}
+body.main .middle-con.home > div {
+  padding-top: 10px;
+  font-size: 16px;
+}
+body.main .middle-con.home > div:first-child {
+  color: red;
+}
+body.main .middle-con.home > div a {
+  font-size: 16px;
+  background-color: red;
+  color: #FFF;
+  width: 100px;
+}
+body.main .middle-con.home > div a:first-child {
+  margin-right: 35px;
+}
+body.main .middle-con.home > div a:last-child {
+  margin-left: 35px;
+}
+body.main .middle-con.ins_search .search-box {
+  width: 20%;
+  margin: 0 auto;
+}
+body.main .middle-con.ins_search .search-box ul.nav {
+  margin-top: 40px;
+}
+body.main .middle-con.ins_search .search-box ul.nav li {
+  width: 50%;
+}
+body.main .middle-con.ins_search .search-box ul.nav li a {
+  border: 1px solid;
+}
+body.main .middle-con.ins_search .search-box .tab-content {
+  margin-top: 40px;
+}
